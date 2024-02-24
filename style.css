@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+}
+
+#titulo{
+    color: red;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+#frase{
+    font-weight: bold;
+}

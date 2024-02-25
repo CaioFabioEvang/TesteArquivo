@@ -5,9 +5,11 @@ function calcular(){
 
     const soma = nota1 + nota2 + nota3;
 
+    const resultado = document.getElementById("resultado");
+
     if(soma >= 180){
-        console.log('calculo correto!');
+        resultado.innerHTML = 'resultado correto';
     }else{
-        console.log('calculo deu errado!');
+        resultado.innerHTML = 'resultado errado';
     }
 }

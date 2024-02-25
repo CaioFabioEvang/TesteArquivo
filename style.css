@@ -2,6 +2,12 @@ body{
     background-color: bisque;
 }
 
+#trsnsform-layout{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
 #titulo{
     color: red;
     font-size: 40px;
